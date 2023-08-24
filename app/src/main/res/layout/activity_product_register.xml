@@ -37,10 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+
 
         <EditText
             android:id="@+id/etFechaV"
@@ -49,17 +46,10 @@
             android:hint="Fecha Vencimiento"
             android:inputType="date" />
 
-        <Button
-            android:id="@+id/btTime"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Abrir" />
-
-
-    </LinearLayout>
 
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogrupo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
