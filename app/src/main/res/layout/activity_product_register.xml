@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Product_register">
+
+    <TextView
+        android:text="Registro de productos"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:hint="Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:hint="Precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etFechaV"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:hint="Fecha Vencimiento"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abrir" />
+
+
+    </LinearLayout>
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/rbCaja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caja" />
+        <RadioButton android:id="@+id/rbPaquete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paquete" />
+        <RadioButton android:id="@+id/rbBotella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botellas" />
+        <RadioButton android:id="@+id/rbLibre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Libre" />
+    </RadioGroup>
+
+
+
+    <Spinner
+        android:id="@+id/spinner_lote"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:text="Registrar"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wproducto</string>
+    <string-array name="array_lista">
+        <item>Seleccione</item>
+        <item>Electrónico</item>
+        <item>Bebida</item>
+        <item>Comestible</item>
+        <item>Ropa</item>
+    </string-array>
+
+    <string-array name="array_lote">
+        <item>Seleccione</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+</resources>
